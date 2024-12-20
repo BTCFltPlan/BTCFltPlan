@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Bitcoin Flight Plan - Your guide to navigating the world of Bitcoin">
+    <title>The Bitcoin Flight Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('aviation_bitcoin_background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background: #f7931a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button:hover {
+            background: #e68000;
+        }
+        .input-field {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Bitcoin Flight Plan</h1>
+    <p>Welcome to the start of your Bitcoin voyage.</p>
+</header>
+
+<div class="container">
+    <h2>Discover Your Bitcoin Journey</h2>
+    <p>The Bitcoin Flight Plan is your guide to navigating the world of Bitcoin. Complete this survey to get started:</p>
+    <a href="survey.html" class="button" aria-label="Complete Survey">Complete Survey</a>
+
+    <h3>User Login</h3>
+    <form action="login.html" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="input-field" placeholder="Email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="input-field" placeholder="Password" required>
+        
+        <button type="submit" class="button">Login</button>
+    </form>
+    <p>New user? <a href="create_account.html" class="button" aria-label="Create New Account">Create New Account</a></p>
+</div>
+
+<footer>
+    <p style="text-align: center; padding: 20px;">DISCLAIMER: The Bitcoin Flight Plan does not provide financial, investment, tax, or legal advice. Use at your own discretion.</p>
+</footer>
+
+</body>
+</html>
